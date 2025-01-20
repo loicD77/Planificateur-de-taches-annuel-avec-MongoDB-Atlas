@@ -1,0 +1,109 @@
+/* Thème clair (par défaut) */
+:root {
+    --bg-color: #f4f4f9;
+    --text-color: #333;
+    --header-bg: #009879;
+    --header-text: #ffffff;
+    --table-bg: #ffffff;
+    --table-border: #dddddd;
+    --table-row-hover: #f1f1f1;
+    --button-bg: #009879;
+    --button-text: #ffffff;
+}
+
+/* Thème sombre */
+body.dark-mode {
+    --bg-color: #1e1e1e;
+    --text-color: #f4f4f9;
+    --header-bg: #333;
+    --header-text: #f4f4f9;
+    --table-bg: #2a2a2a;
+    --table-border: #444;
+    --table-row-hover: #3a3a3a;
+    --button-bg: #444;
+    --button-text: #f4f4f9;
+}
+
+/* Styles généraux */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header-container {
+    background-color: var(--header-bg);
+    color: var(--header-text);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theme-toggle {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.theme-toggle:hover {
+    background-color: var(--header-bg);
+}
+
+/* Tableau stylé */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    background-color: var(--table-bg);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.styled-table th, .styled-table td {
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px solid var(--table-border);
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: var(--table-row-hover);
+}
+
+.styled-table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.styled-table .edit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.styled-table .delete-button {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.styled-table .edit-button:hover {
+    background-color: #45a049;
+}
+
+.styled-table .delete-button:hover {
+    background-color: #e53935;
+}
