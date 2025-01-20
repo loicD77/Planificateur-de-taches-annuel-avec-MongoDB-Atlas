@@ -53,7 +53,13 @@ Ce projet a été réalisé dans le cadre du module *Mini-projets MongoDB*. J'av
 
 ---
 
-## Structure du projet
+### Écrans du projet
+1. ![Corvée A](https://github.com/loicD77/Planificateur-de-taches-annuel-avec-MongoDB-Atlas/blob/main/assets/img/corv%C3%A9e%20A.png)
+2. ![Corvée B](https://github.com/loicD77/Planificateur-de-taches-annuel-avec-MongoDB-Atlas/blob/main/assets/img/corv%C3%A9e%20B.png)
+3. ![Corvée C](https://github.com/loicD77/Planificateur-de-taches-annuel-avec-MongoDB-Atlas/blob/main/assets/img/corv%C3%A9e%20C.png)
+4. ![Corvée D](https://github.com/loicD77/Planificateur-de-taches-annuel-avec-MongoDB-Atlas/blob/main/assets/img/corv%C3%A9e%20D.png)
+5. ![Corvée E](https://github.com/loicD77/Planificateur-de-taches-annuel-avec-MongoDB-Atlas/blob/main/assets/img/corv%C3%A9e%20E.png)
+6. ![Corvée F](https://github.com/loicD77/Planificateur-de-taches-annuel-avec-MongoDB-Atlas/blob/main/assets/img/corv%C3%A9e%20F.png)
+7. ![Corvée G](https://github.com/loicD77/Planificateur-de-taches-annuel-avec-MongoDB-Atlas/blob/main/assets/img/corv%C3%A9e%20G.png)
 
-Voici la structure du projet que j'avais envisagé en suivant le modèle MVC :
-
+---
