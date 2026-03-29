@@ -3,19 +3,6 @@
 ## Auteur
 Loïc Darras - Licence professionnelle Projet Web et Mobile
 
----
-
-## Liens du projet
-- **Lien principal du projet** : [https://www.projet-web-training.ovh/licence07/planning/login.php](https://www.projet-web-training.ovh/licence07/planning/login.php)
-- **Lien du brouillon (répartition 13 dates/4 colonnes)** : [https://www.projet-web-training.ovh/licence07/planningbrouillon/admin.php](https://www.projet-web-training.ovh/licence07/planningbrouillon/admin.php)
-
----
-
-## Contexte du projet
-
-Ce projet a été réalisé dans le cadre du module *Mini-projets MongoDB*. J'avais initialement prévu de développer un forum, mais en raison du temps consacré à un autre projet (Space Invaders en 2D sous Java et OpenGL), j'ai choisi de me concentrer sur un planning. Ce dernier me semblait plus simple et adapté au temps restant.
-
----
 
 ## Fonctionnalités
 
